@@ -1,0 +1,6 @@
+path: ./data_images
+train: train
+val: test
+nc: 1
+names:
+- license_plate

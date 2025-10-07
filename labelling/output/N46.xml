@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>N46.jpeg</filename>
+	<path>/Users/anuborah@sphnet.com.sg/IdeaProjects/car_number_plate_detection/labelling/images/N46.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>927</width>
+		<height>309</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>number_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>450</xmin>
+			<ymin>105</ymin>
+			<xmax>791</xmax>
+			<ymax>234</ymax>
+		</bndbox>
+	</object>
+</annotation>

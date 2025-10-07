@@ -1,0 +1,15 @@
+.env
+venv
+.venv
+example_train_model
+labelImg-master
+images
+data_images
+*.onnx
+*.pt
+*.keras
+*.mp4
+**/__pycache__/
+.DS_Store
+test_images/*
+**/app/static/*
