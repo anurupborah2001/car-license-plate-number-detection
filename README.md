@@ -45,9 +45,9 @@ inception_model_output = Dense(4, activation="sigmoid")(inception_model_output)
 
 2. Training the model will create .keras model
 3. Using the model to detect the bounding box for the car lincense plate.
-![Image with Bounding box of Car lincense plate](image.png)
+![Image with Bounding box of Car lincense plate](markdown-images/bounding-box.png)
 4. Get the Region of interest(ROI) of the bounding box using the co-ordinate and extract the text using OCR
-![ROI of the Car license plate](image-1.png)
+![ROI of the Car license plate](markdown-images/car-license-plate.png)
 5. The below are the methods that are used for OCR:
   a. EasyOCR
   b. Pytesseract
@@ -97,6 +97,9 @@ inception_model_output = Dense(4, activation="sigmoid")(inception_model_output)
   4. Using `metaplotlib` or `cv2` for car plate license plate detection for image.
    5. Realtime video can also be used to detect car number plate detection.
 
-![alt text](image-2.png)
+![license plate detection](markdown-images/license_plate_detection.png)
+
+
+Reference: https://colab.research.google.com/drive/1BR1uekwjcxTF9J6vNROREbkuhjjozAD2
 
 NB: Please note that the model files will not be uplaoded to the github. Please retun the Jupyter notebook files to generated the model.
